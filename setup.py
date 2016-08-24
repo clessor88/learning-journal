@@ -21,7 +21,7 @@ tests_require = [
     'pytest-cov',
     ]
 
-setup(name='learning-journal',
+setup(name='learning_journal',
       version='0.0',
       description='learning-journal',
       long_description=README + '\n\n' + CHANGES,
