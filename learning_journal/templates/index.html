@@ -2,14 +2,14 @@
 <html>
     <head>
         <title>Learning Journal</title>
-        <link rel="stylesheet" href="../static/style.css">
+        <link rel="stylesheet" href=../static.Normalize.css">
     </head>
     <body>
         <header>
             <a href="/">home</a>
-            <a href="/detail">detail</a>
-            <a href="/edit">edit</a>
-            <a href="/form">form</a>
+            <a href="/journal/{id:\d+}">detail</a>
+            <a href="/journal/{id:\d+}/edit-entry">edit</a>
+            <a href="/journal/new-entry">new</a>
         </header>
         <main>
             <div>
